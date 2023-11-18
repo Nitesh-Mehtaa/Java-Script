@@ -1,0 +1,16 @@
+const accountId = 12343
+let accountName = "Nitesh Mehta"
+var accountPassword = "12334455"
+accountCity = "DIP"
+
+accountName = " NSM "
+accountPassword = " 2345"
+accountCity = " Dubai "
+
+console.log(accountName)
+
+// accountId = 1122 // not allowed to change the constant value
+
+console.table([accountName, accountPassword, accountCity])
+
+// Var is not preffered for the variable since it has problem in block scope
